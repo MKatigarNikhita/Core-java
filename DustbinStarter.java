@@ -45,19 +45,12 @@ public class DustbinStarter {
 	System.out.println(ref1);
 	System.out.println(ref2);
 	
-	
-	String first="java programs";
-	String second="java programs";
-	String third="python programs";
-	boolean result=first.equals(second);
-	System.out.println("String first and second are equal:"+result);
-	
-	
-	boolean result2=first.equals(third);
-	System.out.println("Strings first and Third are equal:"+result2);
-	}
 
-
-	
+	 byte b=45;
+	 String str="45";
+	 Byte x=new Byte(b);
+     Byte y=new Byte(str);
+     System.out.println(str.toString());
+}
 
 }
